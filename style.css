@@ -1,0 +1,54 @@
+/*---------------------------------------
+  PREQUISITES
+  --------------------------------------*/
+body {
+    overflow-x: hidden;
+    font-family: 'Cabin', sans-serif;
+}
+
+.navbar-brand.abs{
+    text-align: left !important;
+   
+}
+.navbar-official{
+    padding: 12px;
+    position: relative;
+    text-align: right;
+    padding-right: 200px;
+    background-color: #E8FFE1;
+}
+.menu:link{
+    color: black;
+    padding: 30px;
+}
+.menu:hover{
+    color: hotpink;
+    padding: 10px;
+    
+}
+.menu:visited{
+    color: black;
+    padding: 10px;
+    
+}
+.menu:active{
+    color: black;
+    padding: 10px;
+    
+}
+
+.navbar-brand.abs{
+    text-align: left;
+    position: absolute;
+}
+
+.top-information-thingy #p1{
+    padding-left: 30px;
+}
+.top-information-thingy #p2{
+    padding-left: 100px;
+}
+.banner #img1{
+   width: 100%;
+   height: 768px;
+}
