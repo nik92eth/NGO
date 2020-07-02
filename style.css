@@ -8,7 +8,7 @@
   }
   
   .nav {
-    height: 50px;
+    height: 60px;
     width: 100%;
     background-color: #ceffd1;
     position: relative;
@@ -99,6 +99,11 @@
       text-decoration: none;
       color:#fff;
       padding:10px;
+
+      background-color:rgb(0, 189, 25);
+      margin:5px;
+  }
+
       background-color:rgb(0, 189, 25) ;
   }
   .upper-navbar p{
@@ -111,3 +116,4 @@
   right: 200px;
 }
   
+
