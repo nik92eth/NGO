@@ -103,11 +103,7 @@
   }
   .upper-navbar p{
     display: inline-block;
-    
+    background-color: rgb(120, 247, 158);
 }
 
-.upper-navbar #p1{
-  position: absolute;
-  right: 200px;
-}
-  
+
