@@ -100,6 +100,30 @@ body{
 
 
 /************************************************/
+/*  CARDS START  */
+/************************************************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+/************************************************/
+/*  CARDS FINISH  */
+/************************************************/
+
+
+
+
+
+
+
+/************************************************/
 /*  MEDIA  QUERIES  */
 /************************************************/
 
@@ -190,93 +214,53 @@ body{
    .navbar-toggler.collapsed ~ .navbar-collapse {
       transition: right 500ms ease-in-out;
    }
-   /*  NAVBAR MOBILE ANIMATIONS  */   
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
-}
-
-  body {
-    margin: 0px;
-    font-family: 'segoe ui';
-  }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
+   /*  NAVBAR MOBILE ANIMATIONS  */
 }
 @media only screen and (min-width:768px){
-.image-main.img-fluid{
-  padding-top: 5rem !important;
-  margin: 2rem !important;
+   .image-main.img-fluid{
+     padding-top: 5rem !important;
+     margin: 2rem !important;
+   }
+   .card-img-top{
+     height: 10rem;
+   }
+   
+   #zero.card{
+     height: 25rem;
+     margin-top: 5rem;
+   }
+   
+   #one.card{
+     
+     height: 25rem;
+     margin-top: 5rem;
+   }
+   #two.card{
+     
+     height: 25rem;
+     margin-top: 5rem;
+   }
+   #three.card{
+     
+     height: 25rem;
+     margin-top: 5rem;
+   }
+   #four.card{
+     margin-top: 5rem;
+     height: 25rem;
+   }
 }
-.card-img-top{
-  height: 10rem;
+   @media only screen and (max-width:768px){
+     #one.card,
+     #zero.card,
+     #tow.card ,
+     #three.card ,
+     #four.card{
+       padding: 10px;
+       height: 20rem;
+     }
+     .card-img-top{
+       height: 10rem;
+     }
 }
-
-#zero.card{
-  height: 25rem;
-  margin-top: 5rem;
-}
-
-#one.card{
-  
-  height: 25rem;
-  margin-top: 5rem;
-}
-#two.card{
-  
-  height: 25rem;
-  margin-top: 5rem;
-}
-#three.card{
-  
-  height: 25rem;
-  margin-top: 5rem;
-}
-#four.card{
-  margin-top: 5rem;
-  height: 25rem;
-}
-}
-@media only screen and (max-width:768px)
-{
-  #one.card,
-  #zero.card,
-  #tow.card ,
-  #three.card ,
-  #four.card{
-    padding: 10px;
-    height: 20rem;
-  }
-  .card-img-top{
-    height: 10rem;
-  }
-}
-
+   
