@@ -123,6 +123,46 @@ h6 {
 
 
 
+
+
+
+
+
+
+
+/************************************************/
+/*  FOOTER START  */
+/************************************************/
+
+.footer-top{
+   background-color: black;
+   color:white;
+   padding: 80px 0px;
+}
+.footer-bottom{
+   background-color: black;
+   color:white;   
+}
+.footer-bottom-text{
+   text-align: center;
+   background-color: black;
+   color:white;
+   line-height: 75px;
+   margin:0px;   
+}
+
+/************************************************/
+/*  FOOTER FINISH  */
+/************************************************/
+
+
+
+
+
+
+
+
+
 /************************************************/
 /*  MEDIA  QUERIES  */
 /************************************************/
