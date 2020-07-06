@@ -2,80 +2,135 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Aaina foundation</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <link
-        href="https://fonts.googleapis.com/css?family=Montserrat|Nixie+One|Paytone+One|Poiret+One|Satisfy&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="D:\NIKHIL\NGO.style.css">
-
-    <title>AainaFoundation</title>
 </head>
 
 <body>
-    <img src="C:\Users\monik\Downloads\3.png" class="image-main img-fluid" alt="Donate us" width="1450px">
 
+    <!--  FIRST  NAVBAR  START  -->
+    <div class="container-fluid">
+        <div class="row firstNavbar">
+            <div class="col col-md-5 text-center my-auto">
+                <i class="fa fa-phone" aria-hidden="true"></i><span class="mr-3"> +91-9625496529</span>
+                <i class="fa fa-envelope ml-4 mr-1" aria-hidden="true"></i>aainafoundation66@gmail.com
+            </div>
+
+            <div class="col col-md-6 text-right my-auto">Reach us!
+                <i class="fa fa-facebook ml-2 mr-1" aria-hidden="true"></i>
+                <i class="fa fa-instagram mx-1" aria-hidden="true"></i>
+                <i class="fa fa-twitter mx-1" aria-hidden="true"></i>
+                <i class="fa fa-youtube mx-1" aria-hidden="true"></i>
+                <i class="fa fa-linkedin mx-1" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+    <!--  FIRST  NAVBAR  FINISH  -->
+
+
+    <!--  SECOND NAVBAR  START  -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white rounded shadow secondNavbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" class="brandImage" class="" alt=""><span class="brandHeading"> Aaina
+                    Foundation</span>
+            </a>
+            <button class="navbar-toggler navButton" data-toggle="collapse" data-target="#navbarNav">
+                <div class="menu-btn ml-auto">
+                    <div class="menu-btn__burger"></div>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto navLinks">
+                    <li class="nav-item active px-3">
+                        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="#">Home</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#" data-toggle="collapse"
+                            data-target=".navbar-collapse.show">About</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#" data-toggle="collapse"
+                            data-target=".navbar-collapse.show">Support</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#" data-toggle="collapse"
+                            data-target=".navbar-collapse.show">Contact</a>
+                    </li>
+                </ul>
+                <button class="btn btn-outline-danger nav-link" id="donateButton" data-toggle="collapse"
+                    data-target=".navbar-collapse.show">Donate</button>
+            </div>
+        </div>
+    </nav>
+    <!--  SECOND  NAVBAR  FINISH  -->
+    <!--  CARDS  -->
+    <img src="images/3.png" class="image-main img-fluid" alt="Donate us" width="1450px">
     <div class="container fluid">
         <div class="row cards-main">
-            <div class="col-md-3 col-s-12">
-                <div class="card" id="zero">
-                    <img class="card-img-top img-fluid" src="C:\Users\monik\Downloads\2.jpg" alt="">
+            <div class="col-md-3 col-12">
+                <div class="card " id="zero">
+                    <img class="card-img-top img-fluid" src="images/education.png" alt="">
                     <div class="card-body">
-                        <h3><a href="#">Title</a></h3>
-                        <p>paragraph</p>
+                        <h3 class="h3-cards"><a href="#">Education for All</a></h3>
+                        <p class="para-cards">paragraph</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-s-12">
+            <div class="col-md-3 col-12">
                 <div class="card" id="one">
-                    <img class="card-img-top img-fluid" src="C:\Users\monik\Downloads\2.jpg" alt="">
+                    <img class="card-img-top img-fluid " src="images/bb.png" alt="">
                     <div class="card-body">
-                        <h3><a href="#">Title</a></h3>
-                        <p>paragraph</p>
+                        <h3 class="h3-cards"><a href="#">Beti Bachao Beti Padhao</a></h3>
+                        <p class="para-cards">paragraph</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-s-12">
+            <div class="col-md-3 col-12">
                 <div class="card" id="three">
-                    <img class="card-img-top img-fluid" src="C:\Users\monik\Downloads\2.jpg" alt="">
+                    <img class="card-img-top img-fluid" src="images/2.jpg" alt="">
                     <div class="card-body">
-                        <h3><a href="#">Title</a></h3>
-                        <p>paragraph</p>
+                        <h3 class="h3-cards"><a href="#">Title</a></h3>
+                        <p class="para-cards">paragraph</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-s-12">
+            <div class="col-md-3 col-12">
                 <div class="card" id="four">
-                    <img class="card-img-top img-fluid" src="C:\Users\monik\Downloads\2.jpg" alt="">
+                    <img class="card-img-top img-fluid" src="images/2.jpg" alt="">
                     <div class="card-body">
-                        <h3><a href="#">Title</a></h3>
-                        <p>paragraph</p>
+                        <h3 class="h3-cards"><a href="#">Title</a></h3>
+                        <p class="para-cards">paragraph</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- About us   -->
 
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+
+    <!--  ALL SCRIPTS  -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 
-    <script href="script.js"></script>
 </body>
 
 </html>
