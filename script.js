@@ -1,3 +1,5 @@
+
+
 // HAMBURGER MENU MOBILE 
 const menuBtn = document.querySelector('.menu-btn');
 let menuOpen = false;
@@ -49,6 +51,36 @@ window.addEventListener("scroll", () => {
 });
 
 
+// OWL CAROUSEL
+$('.owl-carousel').owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: true,
+  navText: [
+    "<i class='fa fa-caret-left'></i>",
+    "<i class='fa fa-caret-right'></i>"
+  ],
+  autoplay: true,
+  autoplayHoverPause: true,
+  responsive: {
+    0: {
+      items: 1
+    },
+    600: {
+      items: 3
+    },
+    1000: {
+      items: 4
+    }
+  }
+})
+
+$(document).ready(function () {
+  $(".owl-nav").owlCarousel({
+    navigation: false
+  });
+});
+
 
 // SMOOTH SCROLLING SECTIONS
 $('a[href*=#]:not([href=#])').click(function () {
@@ -73,3 +105,4 @@ $('a[href*=#]:not([href=#])').click(function () {
 //   $("#vision").removeClass("d-none");
 //   $("#objectives").addClass("d-none");
 // }
+

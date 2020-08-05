@@ -9,63 +9,80 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
     <link rel="stylesheet" href="style.css">
     <title>Aaina foundation</title>
 
 </head>
 
 <body>
-    <!--  MAIN NAVBAR  START  -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light mainNavbar">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="images/logo.png" class="brandImage" class="" alt=""><span class="brandHeading"> Aaina
-                    Foundation</span>
-            </a>
-            <button class="navbar-toggler navButton" data-toggle="collapse" data-target="#navbarNav">
-                <div class="menu-btn ml-auto">
-                    <div class="menu-btn__burger"></div>
-                </div>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto navLinks">
-                    <li class="nav-item active px-3">
-                        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="#">Home</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link" href="#" data-toggle="collapse"
-                            data-target=".navbar-collapse.show">About</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link" href="#" data-toggle="collapse"
-                            data-target=".navbar-collapse.show">Support</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link" href="#" data-toggle="collapse"
-                            data-target=".navbar-collapse.show">Contact</a>
-                    </li>
-                </ul>
-                <button class="btn btn-outline-danger nav-link" id="donateButton" data-toggle="collapse"
-                    data-target=".navbar-collapse.show">Donate</button>
-            </div>
-        </div>
-    </nav>
-    <!--  MAIN  NAVBAR  FINISH  -->
+    <!--  MAIN NAVBAR HOMEPAGE  START  -->
+    <nav class="navbar fixed-top navbar-expand-lg mainNavbar">
+        <div class="container-fluid">
+        <a class="navbar-brand ml-4" href="#">
+           <img src="images/logo.png" class="brandImage" class="" alt=""><span class="brandHeading"> Aaina Foundation</span>
+        </a>
+           <button class="navbar-toggler navButton" data-toggle="collapse" data-target="#navbarNav">
+              <div class="menu-btn ml-auto">
+                 <div class="menu-btn__burger"></div>
+              </div>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto navLinks">
+                 <li class="nav-item active mr-3">
+                    <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="#">About</a>
+                 </li>
+                 <li class="nav-item mx-3">
+                    <a class="nav-link" href="#" data-toggle="collapse" data-target=".navbar-collapse.show">Disaster Relief</a>
+                 </li>
+                 <li class="nav-item mx-3">
+                    <a class="nav-link" href="#" data-toggle="collapse" data-target=".navbar-collapse.show">Blogs</a>
+                 </li>
+                 <li class="nav-item mx-3">
+                    <a class="nav-link" href="#" data-toggle="collapse" data-target=".navbar-collapse.show">Annual Rprt</a>
+                 </li>
+                 <li class="nav-item mx-3">
+                    <a class="nav-link" href="#" data-toggle="collapse" data-target=".navbar-collapse.show">Get Involved</a>
+                 </li>
+                 <li class="nav-item mx-3">
+                    <a class="nav-link" href="#" data-toggle="collapse" data-target=".navbar-collapse.show">Partners</a>
+                 </li>   
+              </ul>
+              <button class="btn btn-primary nav-link donateButton" id="donateButton" data-toggle="collapse" data-target=".navbar-collapse.show"><a href="">Donate</a></button>
+              <!-- <button class="btn btn-outline-danger nav-link" id="donateButton" data-toggle="collapse" data-target=".navbar-collapse.show">Donate</button>    -->
+           </div>
+        </div>   
+     </nav>
+ 
 
 
     <!--  BANNER  -->
-    <div class="banner-main">
-        <img src="images/main.jpg" class="image-main img-fluid">
-        <p class="p1">परिवर्तन वही आता है जहां नजरिया बदलता है</p>
-        <p class="p2">Change is where the Perception Changes</p>
-    </div>
+    <section id="header1">
+        <div class="banner-main">
+            <img src="images/main.jpg" class="image-main img-fluid">
+            <p class="p1">परिवर्तन वही आता है जहां नजरिया बदलता है</p>
+            <p class="p2">Change is where the Perception Changes</p>
+        </div>
+    </section>
+
+    <section id="header9">
+        <div class="container-about-head">
+            <img src="images/main-mobil.png" alt="">
+            <div class="about-head">
+                <p class="p2">Change is where the Perception Changes</p>
+                <p class="p1">परिवर्तन वही आता है जहां नजरिया बदलता है</p>
+            </div>
+        </div>
+    </section>
     <!--  CARDS  -->
     <section id="cards-main" style="margin-top: 2rem;">
 
         <div class="container ">
-            <div class="row cards">
+
+            <div class="row">
                 <div class="col-md-3 col-12">
-                    <div class="card">
+                    <div class="main-cards card">
                         <img class="card-img-top img-fluid" src="images/education.png" alt="">
                         <div class="card-body">
                             <h3 class="h3-cards"><a href="#">Education for All</a></h3>
@@ -76,7 +93,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-12">
-                    <div class="card">
+                    <div class="main-cards card">
                         <img class="card-img-top img-fluid" src="images/education.png" alt="">
                         <div class="card-body">
                             <h3 class="h3-cards"><a href="#">Education for All</a></h3>
@@ -87,7 +104,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-12">
-                    <div class="card">
+                    <div class="main-cards card">
                         <img class="card-img-top img-fluid" src="images/education.png" alt="">
                         <div class="card-body">
                             <h3 class="h3-cards"><a href="#">Education for All</a></h3>
@@ -98,7 +115,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-12">
-                    <div class="card">
+                    <div class="main-cards card">
                         <img class="card-img-top img-fluid" src="images/education.png" alt="">
                         <div class="card-body">
                             <h3 class="h3-cards"><a href="#">Education for All</a></h3>
@@ -113,7 +130,7 @@
         <div class="container">
             <div class="row cards1">
                 <div class="col-md-3 col-12">
-                    <div class="card">
+                    <div class="main-cards card">
                         <img class="card-img-top img-fluid" src="images/education.png" alt="">
                         <div class="card-body">
                             <h3 class="h3-cards"><a href="#">Education for All</a></h3>
@@ -124,7 +141,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-12">
-                    <div class="card">
+                    <div class="main-cards card">
                         <img class="card-img-top img-fluid" src="images/education.png" alt="">
                         <div class="card-body">
                             <h3 class="h3-cards"><a href="#">Education for All</a></h3>
@@ -135,7 +152,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-12">
-                    <div class="card">
+                    <div class="main-cards card">
                         <img class="card-img-top img-fluid" src="images/education.png" alt="">
                         <div class="card-body">
                             <h3 class="h3-cards"><a href="#">Education for All</a></h3>
@@ -146,7 +163,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-12">
-                    <div class="card">
+                    <div class="main-cards card">
                         <img class="card-img-top img-fluid" src="images/education.png" alt="">
                         <div class="card-body">
                             <h3 class="h3-cards"><a href="#">Education for All</a></h3>
@@ -159,70 +176,189 @@
             </div>
         </div>
     </section>
-
+    <!-- CAROUSEL START -->
+    <section id="carousel-main">
+        <div class="carousel-wrap">
+            <div class="owl-carousel">
+                <div class="item card">
+                    <img class="card-img-top img-fluid" src="images/education.png" alt="" />
+                    <h3 class="h3-cards"><a href="#">Education for All</a></h3>
+                    <p class="para-cards">
+                        Free and compulsory education to all children up to the age fourteen
+                        is constitutional commitment in India.
+                    </p>
+                </div>
+                <div class="item card">
+                    <img class="card-img-top img-fluid" src="images/education.png" alt="" />
+                    <h3 class="h3-cards"><a href="#">Education for All</a></h3>
+                    <p class="para-cards">
+                        Free and compulsory education to all children up to the age fourteen
+                        is constitutional commitment in India.
+                    </p>
+                </div>
+                <div class="item card">
+                    <img class="card-img-top img-fluid" src="images/education.png" alt="" />
+                    <h3 class="h3-cards"><a href="#">Education for All</a></h3>
+                    <p class="para-cards">
+                        Free and compulsory education to all children up to the age fourteen
+                        is constitutional commitment in India.
+                    </p>
+                </div>
+                <div class="item card">
+                    <img class="card-img-top img-fluid" src="images/education.png" alt="" />
+                    <h3 class="h3-cards"><a href="#">Education for All</a></h3>
+                    <p class="para-cards">
+                        Free and compulsory education to all children up to the age fourteen
+                        is constitutional commitment in India.
+                    </p>
+                </div>
+                <div class="item card">
+                    <img class="card-img-top img-fluid" src="images/education.png" alt="" />
+                    <h3 class="h3-cards"><a href="#">Education for All</a></h3>
+                    <p class="para-cards">
+                        Free and compulsory education to all children up to the age fourteen
+                        is constitutional commitment in India.
+                    </p>
+                </div>
+                <div class="item card">
+                    <img class="card-img-top img-fluid" src="images/education.png" alt="" />
+                    <h3 class="h3-cards"><a href="#">Education for All</a></h3>
+                    <p class="para-cards">
+                        Free and compulsory education to all children up to the age fourteen
+                        is constitutional commitment in India.
+                    </p>
+                </div>
+                <div class="item card">
+                    <img class="card-img-top img-fluid" src="images/education.png" alt="" />
+                    <h3 class="h3-cards"><a href="#">Education for All</a></h3>
+                    <p class="para-cards">
+                        Free and compulsory education to all children up to the age fourteen
+                        is constitutional commitment in India.
+                    </p>
+                </div>
+                <div class="item card">
+                    <img class="card-img-top img-fluid" src="images/education.png" alt="" />
+                    <h3 class="h3-cards"><a href="#">Education for All</a></h3>
+                    <p class="para-cards">
+                        Free and compulsory education to all children up to the age fourteen
+                        is constitutional commitment in India.
+                    </p>
+                </div>
+                <div class="item card">
+                    <img class="card-img-top img-fluid" src="images/education.png" alt="" />
+                    <h3 class="h3-cards"><a href="#">Education for All</a></h3>
+                    <p class="para-cards">
+                        Free and compulsory education to all children up to the age fourteen
+                        is constitutional commitment in India.
+                    </p>
+                </div>
+                <div class="item card">
+                    <img class="card-img-top img-fluid" src="images/education.png" alt="" />
+                    <h3 class="h3-cards"><a href="#">Education for All</a></h3>
+                    <p class="para-cards">
+                        Free and compulsory education to all children up to the age fourteen
+                        is constitutional commitment in India.
+                    </p>
+                </div>
+                <div class="item card">
+                    <img class="card-img-top img-fluid" src="images/education.png" alt="" />
+                    <h3 class="h3-cards"><a href="#">Education for All</a></h3>
+                    <p class="para-cards">
+                        Free and compulsory education to all children up to the age fourteen
+                        is constitutional commitment in India.
+                    </p>
+                </div>
+                <div class="item card">
+                    <img class="card-img-top img-fluid" src="images/education.png" alt="" />
+                    <h3 class="h3-cards"><a href="#">Education for All</a></h3>
+                    <p class="para-cards">
+                        Free and compulsory education to all children up to the age fourteen
+                        is constitutional commitment in India.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CAROUSEL END -->
+    <!--  CAMPAIGNS  -->
     <section id="campaigns">
         <h2 class="camp-head">Our Campaigns</h2>
         <hr class="hr1">
         <hr class="hr2">
-        <div class="container" style="margin-top: 4rem">
+        <div class="container">
             <div class="row">
-                <div class="col-md-3 col-12">
-                    <div class="card4">
-                        <h3>This is option 4</h3>
-                        <p class="small">Card description with lots of great facts and interesting details.</p>
-                        <div class="dimmer"></div>
-                        <div class="go-corner" href="#">
-                            <div class="go-arrow">
-                                →
+                <div class="col-md-4 col-12">
+                    <a href="#">
+                        <div class="card4">
+                            <img src="images/children.jpg" class="img-fluid" alt="">
+                            <h3>Covid-19 Relief</h3>
+                            <p class="small">Card description with lots of great facts and interesting details.</p>
+                            <div class="dimmer"></div>
+                            <div class="go-corner" href="#">
+                                <div class="go-arrow">
+                                    →
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-md-3 col-12">
-                    <div class="card4">
-                        <h3>This is option 4</h3>
-                        <p class="small">Card description with lots of great facts and interesting details.</p>
-                        <div class="dimmer"></div>
-                        <div class="go-corner" href="#">
-                            <div class="go-arrow">
-                                →
+                <div class="col-md-4 col-12">
+                    <a href="#">
+                        <div class="card4">
+                            <img src="images/children.jpg" class="img-fluid" alt="">
+                            <h3>Disaster Funds</h3>
+                            <p class="small">Card description with lots of great facts and interesting details.
+                            </p>
+                            <div class="dimmer"></div>
+                            <div class="go-corner" href="#">
+                                <div class="go-arrow">
+                                    →
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-md-3 col-12">
-                    <div class="card4">
-                        <h3>This is option 4</h3>
-                        <p class="small">Card description with lots of great facts and interesting details.</p>
-                        <div class="dimmer"></div>
-                        <div class="go-corner" href="#">
-                            <div class="go-arrow">
-                                →
+                <div class="col-md-4 col-12">
+                    <a href="#">
+                        <div class="card4">
+                            <img src="images/children.jpg" class="img-fluid" alt="">
+                            <h3>Let Childern Enjoy Childhhod</h3>
+                            <p class="small">Card description with lots of great facts and interesting details.
+                            </p>
+                            <div class="dimmer"></div>
+                            <div class="go-corner" href="#">
+                                <div class="go-arrow">
+                                    →
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
-    <!--  ABOUT US START   -->
-    <div class="container">
+    <!--  CAMPAIGNS FINISH -->
 
-        <h1 class="text-center display-4 about-us-heading">What We Do</h1>
-        <hr class="hr1">
-        <hr class="hr2">
-        <div style="height: 3rem;"></div>
-        <div class="row">
-            <div class="col-12 col-md-6 text-center">
-                <img src="images/image1.png" class="about-us-image" alt="">
-            </div>
-            <div class="col-12 col-md-6 my-auto about-us-text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptatum ipsam molestiae minus dicta
-                    odit atque sed, incidunt recusandae, rerum modi omnis at in. Recusandae magni dolorum cumque hic
-                    ut.</p>
+    <!--  ABOUT US START   -->
+    <section id="about us" style="margin-top: 4rem;">
+        <div class="container">
+
+            <h1 class="text-center display-4 about-us-heading">What We Do</h1>
+            <hr class="hr1">
+            <hr class="hr2">
+            <div style="height: 3rem;"></div>
+            <div class="row">
+                <div class="col-12 col-md-6 text-center">
+                    <img src="images/image1.png" class="about-us-image" alt="">
+                </div>
+                <div class="col-12 col-md-6 my-auto about-us-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptatum ipsam molestiae minus dicta
+                        odit atque sed, incidunt recusandae, rerum modi omnis at in. Recusandae magni dolorum cumque hic
+                        ut.</p>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
     <!--  ABOUT US FINISH  -->
 
     <div style="margin:7em"></div>
@@ -334,6 +470,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+    <script src="jquery.min.js"></script>
+
+    <script src="owlcarousel/owl.carousel.min.js"></script>
     <script src="script.js"></script>
 
 </body>
