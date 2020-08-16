@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -13,77 +12,609 @@
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
     <link rel="stylesheet" href="style.css">
     <title>Aaina foundation</title>
-
 </head>
 
 <body>
     <!--  MAIN NAVBAR HOMEPAGE  START  -->
-    <nav class="navbar fixed-top navbar-expand-lg mainNavbar">
+    <nav class="navbar fixed-top navbar-expand-lg custom-navbar p-0" id="home-screen-nav">
         <div class="container-fluid">
             <a class="navbar-brand ml-4" href="#">
-                <img src="images/logo.png" class="brandImage" class="" alt=""><span class="brandHeading"> Aaina
-                    Foundation</span>
+                <img src="images/logo-top.png" class="brand-img-top" class="" alt="" width="220px">
+                <img src="images/logo.png" class="brand-img-scrolled" class="" alt="" width="220px">
             </a>
-            <button class="navbar-toggler navButton" data-toggle="collapse" data-target="#navbarNav">
+            <button class="navbar-toggler nav-btn" data-toggle="collapse" data-target="#navbarNav">
                 <div class="menu-btn ml-auto">
                     <div class="menu-btn__burger"></div>
                 </div>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto navLinks">
-                    <li class="nav-item active mr-3">
-                        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"
-                            href="#">About</a>
+                <ul class="navbar-nav ml-auto navLinks mx-5">
+                    <li class="nav-item active mx-2">
+                        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="#">
+                            OUR STORY
+                        </a>
                     </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link" href="#" data-toggle="collapse" data-target=".navbar-collapse.show">Disaster
-                            Relief</a>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#" data-toggle="collapse" data-target=".navbar-collapse.show">
+                            DISASTER RELIEF
+                        </a>
                     </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link" href="#" data-toggle="collapse"
-                            data-target=".navbar-collapse.show">Blogs</a>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#" data-toggle="collapse" data-target=".navbar-collapse.show">
+                            EVENTS
+                        </a>
                     </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link" href="#" data-toggle="collapse" data-target=".navbar-collapse.show">Annual
-                            Rprt</a>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#" data-toggle="collapse" data-target=".navbar-collapse.show">
+                            AAINA BLOG
+                        </a>
                     </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link" href="#" data-toggle="collapse" data-target=".navbar-collapse.show">Get
-                            Involved</a>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link" href="#" data-toggle="collapse"
-                            data-target=".navbar-collapse.show">Partners</a>
-                    </li>
+                    <button class="btn nav-link donate-button" id="donateButton" data-toggle="collapse"
+                        data-target=".navbar-collapse.show" href="#">
+                        Donate
+                    </button>
                 </ul>
-                <button class="btn btn-primary nav-link donateButton" id="donateButton" data-toggle="collapse"
-                    data-target=".navbar-collapse.show"><a href="">Donate</a></button>
-                <!-- <button class="btn btn-outline-danger nav-link" id="donateButton" data-toggle="collapse" data-target=".navbar-collapse.show">Donate</button>    -->
+
             </div>
         </div>
     </nav>
-
-
-
     <!--  BANNER  -->
-    <section id="header1">
-        <div class="banner-main">
-            <img src="images/main-new.jpg" class="image-main img-fluid">
-            <p class="p1">परिवर्तन वही आता है जहां नजरिया बदलता है</p>
-            <p class="p2">Change is where the Perception Changes</p>
+    <section id="indexHeader">
+        <div class="banner-main container-fluid">
+            <p class="p-1 text-center"><span>Change</span> is where the <span>Perception</span> changes</p>
+            <p class="p-2 text-center">"परिवर्तन वही आता है जहां नजरिया बदलता है"</p>
         </div>
     </section>
 
-    <section id="header9">
-        <div class="container-about-head">
-            <img src="images/main-mobil.png" alt="">
-            <div class="about-head">
-                <p class="p2">Change is where the Perception Changes</p>
-                <p class="p1">परिवर्तन वही आता है जहां नजरिया बदलता है</p>
+
+    <section id="whatWeDo">
+        <div class="desktop-view">
+            <div class="section-1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-7">
+                            <div class="section-text mb-4 text-center text-md-left">
+                                <h2>Beti Bachao, Beti Padhao</h2>
+                                <p>
+                                    Through this scheme, proper arrangements are being made for the education of
+                                    daughters and to bring changes in the thinking of the people, it is being spread
+                                    from place to place so that people do not discriminate between daughters and
+                                    daughters.
+
+                                </p>
+                                <a href="" class="section-btn-1">Know More</a>
+                            </div>
+                            <div class="section-logos my-3">
+                                <img src="images/emblem-dark.png" alt="" width="35px" class="mx-3">
+                                <img src="images/left-logo.png" alt="" width="53px" class="mx-3">
+                                <img src="images/beti-bachao-logo2.png" alt="" width="58px" class="mx-3">
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-12 text-center">
+                            <img src="images/kids.png" alt="" width="95%" class="section-main-img"
+                                style="margin-top: 3rem;">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="section-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-12 text-center">
+                            <img src="images/edu-for-all.png" alt="" width="95%" class="section-main-img"
+                                style="margin-top: 3rem;">
+                        </div>
+                        <div class="col-12 col-md-7">
+                            <div class="section-text mb-4 text-center text-md-right">
+                                <h2>Education For All</h2>
+                                <p>
+                                    Free and compulsory education to all children up to the age fourteen is
+                                    constitutional commitment in India. The Parliament of India has passed Right to
+                                    Education Act in 2009 through which education has become fundamental right of all
+                                    children of age group 6-14 year.
+                                </p>
+                                <a href="" class="section-btn-1">Know More</a>
+                            </div>
+                            <div class="section-logos my-3 text-right">
+                                <img src="images/emblem-dark.png" alt="" width="35px" class="mx-3">
+                                <img src="images/left-logo.png" alt="" width="53px" class="mx-3">
+                                <img src="images/education.png" alt="" width="58px" class="mx-3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="section-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-7">
+                            <div class="section-text mb-4 text-center text-md-left">
+                                <h2>Health For All</h2>
+                                <p>
+                                    Social health and cognitive health are equally important for a person's overall
+                                    well-being. A person can maintain their social health when they communicate
+                                    effectively with others. Also, when a person is friendly to us and goes to social
+                                    ceremonies, his social health will definitely be good.
+                                </p>
+                                <a href="" class="section-btn-1">Know More</a>
+                            </div>
+                            <div class="section-logos my-3">
+                                <img src="images/emblem-dark.png" alt="" width="35px" class="mx-3">
+                                <img src="images/left-logo.png" alt="" width="53px" class="mx-3">
+                                <img src="images/health-for-all.png" alt="" width="58px" class="mx-3">
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-12 text-center">
+                            <img src="images/healthcare.png" alt="" width="95%" class="section-main-img"
+                                style="margin-top: 3rem;">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="section-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-12 text-center">
+                            <img src="images/kids.png" alt="" width="95%" class="section-main-img"
+                                style="margin-top: 3rem;">
+                        </div>
+                        <div class="col-12 col-md-7">
+                            <div class="section-text mb-4 text-center text-md-right">
+                                <h2>Motivational Seminars</h2>
+                                <p>
+                                    During the revolutionary seminars, prepare the dynamic speakers on different
+                                    subjects such as presentation and public speaking, body, mind and spirit., Levels of
+                                    passion, leading and balanced life, to create vigilance, create new energy,
+                                    attention etc.
+                                </p>
+                                <a href="" class="section-btn-1">Know More</a>
+                            </div>
+                            <div class="section-logos my-3 text-right">
+                                <img src="images/emblem-dark.png" alt="" width="35px" class="mx-3">
+                                <img src="images/left-logo.png" alt="" width="53px" class="mx-3">
+                                <img src="images/beti-bachao-logo2.png" alt="" width="58px" class="mx-3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="section-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-7">
+                            <div class="section-text mb-4 text-center text-md-left">
+                                <h2>Nukkad Natak</h2>
+                                <p>
+                                    Aaina Foundation conducted a nukkad Natak 'dastak' in collaboration with the Asmita
+                                    theatre. It was performed by Asmita theatre group at shakur basti slum to create
+                                    awareness and sensitise people on growing incidents of atrocities against women.
+                                </p>
+                                <a href="" class="section-btn-1">Know More</a>
+                            </div>
+                            <div class="section-logos my-3">
+                                <img src="images/emblem-dark.png" alt="" width="35px" class="mx-3">
+                                <img src="images/left-logo.png" alt="" width="53px" class="mx-3">
+                                <img src="images/beti-bachao-logo2.png" alt="" width="58px" class="mx-3">
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-12 text-center">
+                            <img src="images/nukkad.png" alt="" width="95%" class="section-main-img"
+                                style="margin-top: 3rem;">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="section-6">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-12 text-center">
+                            <img src="images/swa.png" alt="" width="95%" class="section-main-img"
+                                style="margin-top: 3rem;">
+                        </div>
+                        <div class="col-12 col-md-7">
+                            <div class="section-text mb-4 text-center text-md-right">
+                                <h2>Swachh Bharat Abhiyaan</h2>
+                                <p>
+                                    In our country, there is absolutely no attention given to cleanliness. You must have
+                                    seen that in any big state or city or village or any street or locality in our
+                                    country, you will get garbage there too.Due to which many diseases are spreading in
+                                    our country
+                                </p>
+                                <a href="" class="section-btn-1">Know More</a>
+                            </div>
+                            <div class="section-logos my-3 text-right">
+                                <img src="images/emblem-dark.png" alt="" width="35px" class="mx-3">
+                                <img src="images/left-logo.png" alt="" width="53px" class="mx-3">
+                                <img src="images/swachh.png" alt="" width="100px" class="mx-3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="section-7">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-7">
+                            <div class="section-text mb-4 text-center text-md-left">
+                                <h2>Yoga</h2>
+                                <p>
+                                    Yoga helps in controlling body, mind and soul. It creates a balance of physical and
+                                    mental discipline to calm the body and mind. It also helps in managing stress and
+                                    anxiety and helps you stay relaxed.
+                                </p>
+                                <a href="" class="section-btn-1">Know More</a>
+                            </div>
+                            <div class="section-logos my-3">
+                                <img src="images/emblem-dark.png" alt="" width="35px" class="mx-3">
+                                <img src="images/left-logo.png" alt="" width="53px" class="mx-3">
+                                <img src="images/yoga-logo.png" alt="" width="58px" class="mx-3">
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-12 text-center">
+                            <img src="images/yoga.png" alt="" width="95%" class="section-main-img"
+                                style="margin-top: 3rem;">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="section-8">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-12 text-center">
+                            <img src="images/environment.png" alt="" width="95%" class="section-main-img"
+                                style="margin-top: 3rem;">
+                        </div>
+                        <div class="col-12 col-md-7">
+                            <div class="section-text mb-4 text-center text-md-right">
+                                <h2>Environment</h2>
+                                <p>
+                                    Whatever is the physical, biological and cultural environment, there is a very
+                                    environment. The beginning of life is continuous contact with configurations, we
+                                    struggle and harmon with our environment by the beginning of the end.
+                                </p>
+                                <a href="" class="section-btn-1">Know More</a>
+                            </div>
+                            <div class="section-logos my-3 text-right">
+                                <img src="images/emblem-dark.png" alt="" width="35px" class="mx-3">
+                                <img src="images/left-logo.png" alt="" width="53px" class="mx-3">
+                                <img src="images/environment-logo.png" alt="" width="58px" class="mx-3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="section-9">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-7">
+                            <div class="section-text mb-4 text-center text-md-left">
+                                <h2>Project Unnati Digital Day</h2>
+                                <p>
+                                    Aaina Foundation with Enactus Dtu organised the first DIGITAL DAY event in Shahbad
+                                    Dairy Slum on 17th September. A one of its kind event, Digital Day saw a wonderful
+                                    turnout of bubbly and enthusiastic children.
+                                </p>
+                                <a href="" class="section-btn-1">Know More</a>
+                            </div>
+                            <div class="section-logos my-3">
+                                <img src="images/emblem-dark.png" alt="" width="35px" class="mx-3">
+                                <img src="images/left-logo.png" alt="" width="53px" class="mx-3">
+                                <img src="images/national-literacy-mission.png" alt="" width="58px" class="mx-3">
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-12 text-center">
+                            <img src="images/dig-literacy.png" alt="" width="95%" class="section-main-img"
+                                style="margin-top: 3rem;">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <!-- MOBILE VIEW -->
+        <div class="carousel-wrap">
+            <div class="owl-carousel custom-carousel">
+                <div class="item">
+                    <div class="section-1">
+                        <div class="container">
+                            <h2 class="text-center">Beti Bachao, Beti Padhao</h2>
+                            <div class="row">
+
+                                <div class="col-md-5 col-12 text-center">
+                                    <img src="images/kids.png" alt="" width="95%" class="section-main-img">
+                                </div>
+                                <div class="col-12 col-md-7">
+                                    <div class="section-text mb-4 text-center text-md-left">
+
+                                        <p>
+                                            Through this scheme, proper arrangements are being made for the education of
+                                            daughters
+                                            and to bring changes in the thinking of the people, it is being spread from
+                                            place to
+                                            place so that people do not discriminate between daughters and daughters.
+                                        </p>
+                                        <a href="" class="section-btn-1">Know More</a>
+                                    </div>
+                                    <div class="section-logos my-3 text-center">
+                                        <img src="images/emblem-dark.png" alt="" width="30px" class="mx-2">
+                                        <img src="images/left-logo.png" alt="" width="50px" class="mx-2">
+                                        <img src="images/beti-bachao-logo2.png" alt="" width="54px" class="mx-2">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="section-1">
+                        <div class="container">
+                            <h2 class="text-center">Education For All</h2>
+                            <div class="row">
+
+                                <div class="col-md-5 col-12 text-center">
+                                    <img src="images/edu-for-all.png" alt="" width="95%" class="section-main-img">
+                                </div>
+                                <div class="col-12 col-md-7">
+                                    <div class="section-text mb-4 text-center text-md-left">
+
+                                        <p>
+                                            Free and compulsory education to all children up to the age fourteen is
+                                            constitutional commitment in India. The Parliament of India has passed Right
+                                            to Education Act in 2009 through which education has become fundamental
+                                            right of all children of age group 6-14 year.
+                                        </p>
+                                        <a href="" class="section-btn-1">Know More</a>
+                                    </div>
+                                    <div class="section-logos my-3 text-center">
+                                        <img src="images/emblem-dark.png" alt="" width="30px" class="mx-2">
+                                        <img src="images/left-logo.png" alt="" width="50px" class="mx-2">
+                                        <img src="images/education.png" alt="" width="58px" class="mx-2">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="section-1">
+                        <div class="container">
+                            <h2 class="text-center">Health For All</h2>
+                            <div class="row">
+
+                                <div class="col-md-5 col-12 text-center">
+                                    <img src="images/healthcare.png" alt="" width="95%" class="section-main-img">
+                                </div>
+                                <div class="col-12 col-md-7">
+                                    <div class="section-text mb-4 text-center text-md-left">
+
+                                        <p>
+                                            Social health and cognitive health are equally important for a person's
+                                            overall well-being. A person can maintain their social health when they
+                                            communicate effectively with others. Also, when a person is friendly to us
+                                            and goes to social ceremonies, his social health will definitely be good.
+                                        </p>
+                                        <a href="" class="section-btn-1">Know More</a>
+                                    </div>
+                                    <div class="section-logos my-3 text-center">
+                                        <img src="images/emblem-dark.png" alt="" width="35px" class="mx-2">
+                                        <img src="images/left-logo.png" alt="" width="53px" class="mx-2">
+                                        <img src="images/health-for-all.png" alt="" width="58px" class="mx-2">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="section-1">
+                        <div class="container">
+                            <h2 class="text-center">Motivation Seminars</h2>
+                            <div class="row">
+
+                                <div class="col-md-5 col-12 text-center">
+                                    <img src="images/kids.png" alt="" width="95%" class="section-main-img">
+                                </div>
+                                <div class="col-12 col-md-7">
+                                    <div class="section-text mb-4 text-center text-md-left">
+
+                                        <p>
+                                            During the revolutionary seminars, prepare the dynamic speakers on different
+                                            subjects such as presentation and public speaking, body, mind and spirit.,
+                                            Levels of passion, leading and balanced life, to create vigilance, create
+                                            new energy, attention etc.
+                                        </p>
+                                        <a href="" class="section-btn-1">Know More</a>
+                                    </div>
+                                    <div class="section-logos my-3 text-center">
+                                        <img src="images/emblem-dark.png" alt="" width="35px" class="mx-3">
+                                        <img src="images/left-logo.png" alt="" width="53px" class="mx-3">
+                                        <img src="images/beti-bachao-logo2.png" alt="" width="58px" class="mx-3">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="section-1">
+                        <div class="container">
+                            <h2 class="text-center">Nukkad Natak</h2>
+                            <div class="row">
+
+                                <div class="col-md-5 col-12 text-center">
+                                    <img src="images/nukkad.png" alt="" width="95%" class="section-main-img">
+                                </div>
+                                <div class="col-12 col-md-7">
+                                    <div class="section-text mb-4 text-center text-md-left">
+
+                                        <p>
+                                            Aaina Foundation conducted a nukkad Natak 'dastak' in collaboration with the
+                                            Asmita theatre. It was performed by Asmita theatre group at shakur basti
+                                            slum to create awareness and sensitise people on growing incidents of
+                                            atrocities against women.
+                                        </p>
+                                        <a href="" class="section-btn-1">Know More</a>
+                                    </div>
+                                    <div class="section-logos my-3 text-center">
+                                        <img src="images/emblem-dark.png" alt="" width="35px" class="mx-3">
+                                        <img src="images/left-logo.png" alt="" width="53px" class="mx-3">
+                                        <img src="images/beti-bachao-logo2.png" alt="" width="58px" class="mx-3">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="section-1">
+                        <div class="container">
+                            <h2 class="text-center">Swachh Bharat Abhiyaan</h2>
+                            <div class="row">
+
+                                <div class="col-md-5 col-12 text-center">
+                                    <img src="images/swa.png" alt="" width="95%" class="section-main-img">
+                                </div>
+                                <div class="col-12 col-md-7">
+                                    <div class="section-text mb-4 text-center text-md-left">
+
+                                        <p>
+                                            In our country, there is absolutely no attention given to cleanliness. You
+                                            must have seen that in any big state or city or village or any street or
+                                            locality in our country, you will get garbage there too.Due to which many
+                                            diseases are spreading in our country
+                                        </p>
+                                        <a href="" class="section-btn-1">Know More</a>
+                                    </div>
+                                    <div class="section-logos my-3 text-center">
+                                        <img src="images/emblem-dark.png" alt="" width="35px" class="mx-2">
+                                        <img src="images/left-logo.png" alt="" width="53px" class="mx-2">
+                                        <img src="images/swachh.png" alt="" width="100px" class="swachh mx-2">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="section-1">
+                        <div class="container">
+                            <h2 class="text-center">Yoga</h2>
+                            <div class="row">
+
+                                <div class="col-md-5 col-12 text-center">
+                                    <img src="images/yoga.png" alt="" width="95%" class="section-main-img">
+                                </div>
+                                <div class="col-12 col-md-7">
+                                    <div class="section-text mb-4 text-center text-md-left">
+
+                                        <p>
+                                            Yoga helps in controlling body, mind and soul. It creates a balance of
+                                            physical and mental discipline to calm the body and mind. It also helps in
+                                            managing stress and anxiety and helps you stay relaxed.
+                                        </p>
+                                        <a href="" class="section-btn-1">Know More</a>
+                                    </div>
+                                    <div class="section-logos my-3 text-center">
+                                        <img src="images/emblem-dark.png" alt="" width="35px" class="mx-2">
+                                        <img src="images/left-logo.png" alt="" width="53px" class="mx-2">
+                                        <img src="images/yoga-logo.png" alt="" width="58px" class="mx-2">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="section-1">
+                        <div class="container">
+                            <h2 class="text-center">Environment</h2>
+                            <div class="row">
+
+                                <div class="col-md-5 col-12 text-center ">
+                                    <img src="images/environment.png" alt="" width="95%" class="section-main-img">
+                                </div>
+                                <div class="col-12 col-md-7">
+                                    <div class="section-text mb-4 text-center text-md-left">
+                                        <p>
+                                            Whatever is the physical, biological and cultural environment, there is a
+                                            very environment. The beginning of life is continuous contact with
+                                            configurations, we struggle and harmon with our environment by the beginning
+                                            of the end.
+                                        </p>
+                                        <a href="" class="section-btn-1">Know More</a>
+                                    </div>
+                                    <div class="section-logos my-3 text-center">
+                                        <img src="images/emblem-dark.png" alt="" width="35px" class="mx-2">
+                                        <img src="images/left-logo.png" alt="" width="53px" class="mx-2">
+                                        <img src="images/environment-logo.png" alt="" width="58px" class="mx-2">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="section-1">
+                        <div class="container">
+                            <h2 class="text-center">Project Unnati Digital Day</h2>
+                            <div class="row">
+
+                                <div class="col-md-5 col-12 text-center">
+                                    <img src="images/dig-literacy.png" alt="" width="95%" class="section-main-img">
+                                </div>
+                                <div class="col-12 col-md-7">
+                                    <div class="section-text mb-4 text-center text-md-left">
+
+                                        <p>
+                                            Aaina Foundation with Enactus Dtu organised the first DIGITAL DAY event in
+                                            Shahbad Dairy Slum on 17th September. A one of its kind event, Digital Day
+                                            saw a wonderful turnout of bubbly and enthusiastic children.
+                                        </p>
+                                        <a href="" class="section-btn-1">Know More</a>
+                                    </div>
+                                    <div class="section-logos my-3 text-center">
+                                        <img src="images/emblem-dark.png" alt="" width="35px" class="mx-2">
+                                        <img src="images/left-logo.png" alt="" width="53px" class="mx-2">
+                                        <img src="images/national-literacy-mission.png" alt="" width="58px"
+                                            class="mx-2">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <!--  CARDS  -->
+
+
+
+    <!-- CARDS 
     <section id="cards-main" style="margin-top: 2rem;">
 
         <div class="container ">
@@ -183,9 +714,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- CAROUSEL START -->
-    <section id="carousel-main">
+    <!-- <section id="carousel-main">
         <div class="carousel-wrap">
             <div class="owl-carousel">
                 <div class="item card">
@@ -286,7 +817,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>  -->
     <!-- CAROUSEL END -->
     <!--  CAMPAIGNS  -->
     <section id="campaigns">
@@ -379,8 +910,8 @@
                 <div class="row clearfix">
                     <div class="col-md-3 col-sm-6  segment-one md-mb-30 sm-mb-30">
                         <div style="margin: 0px 1rem;">
-                            <h3 class="mb-4">AAINA FOUNDATION</h3>
-                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h3 class="mb-5">AAINA FOUNDATION</h3>
+                            <p class="text-justify">A NON PROFIT ORGANISATION</p>
                             <a href="#"><i class="fa fa-facebook social-icons" aria-hidden="true"></i></a>
 
                             <a href="#"><i class="fa fa-instagram social-icons" aria-hidden="true"></i></a>
@@ -406,11 +937,11 @@
                                 </div>
                                 <div class="col-6">
                                     <ul>
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">About</a></li>
-                                        <li><a href="#">Contact</a></li>
-                                        <li><a href="#">Our Partners</a></li>
                                         <li><a href="#">Donate</a></li>
+                                        <li><a href="#">Get Involved</a></li>
+                                        <li><a href="#">Anual Report</a></li>
+                                        <li><a href="#">Our Partners</a></li>
+
                                     </ul>
                                 </div>
                             </div>
@@ -419,15 +950,15 @@
                     <div class="col-md-3 col-sm-6  segment-four md-mb-30 sm-mb-30">
                         <div style="margin: 0px 1rem;">
                             <h3 class="mb-5">CONTACT US</h3>
-                            <p><span class="mr-2 ml-1"><i class="fa fa-map"
-                                        style="color:rgba(255, 0, 0, 0.699);"></i></span>E-257 Shahbad Dairy
+                            <p><span class="mr-0 ml-0"><i class="fa fa-map" style="color:#ed2939;"></i></span>E-257
+                                Shahbad Dairy
                                 Near Maharana Pratap Chouk Delhi 110042
                             </p>
-                            <p><span class="mr-2 ml-1"><i class="fa fa-phone"
-                                        style="color:rgba(255, 0, 0, 0.699);"></i></span>+91-9625496529
+                            <p><span class="mr-0 ml-0"><i class="fa fa-phone"
+                                        style="color:#ed2939;"></i></span>+91-9625496529
                             </p>
-                            <p><span class="mr-2 ml-1"><i class="fa fa-envelope"
-                                        style="color:rgba(255, 0, 0, 0.699);"></i></span>aainafoundation66@gmail.com
+                            <p><span class="mr-0 ml-0"><i class="fa fa-envelope"
+                                        style="color:#ed2939;"></i></span>aainafoundation66@gmail.com
                             </p>
                         </div>
                     </div>
